@@ -1,14 +1,19 @@
-# flutter_project_template
-[![flutter_project_template](https://nokycucwgzweensacwfy.supabase.co/functions/v1/get_project_badge?projectId=149)](https://nokycucwgzweensacwfy.supabase.co/functions/v1/get_project_url?projectId=149)
+# Color Tap
+A Flutter app that displays "Hello there" and changes the background to a randomly generated RGB color on tap.
 
-📖 Template for flutter projects using solid_lints, CI for tests and analysis.
+https://github.com/user-attachments/assets/a9ffae20-8341-413a-8074-97ab15d5bb55
 
-- Uses latest stable flutter
-- Repo name as your project name
-- Organization from your profile email address or default
+<img width="300" alt="Light background" src="https://github.com/user-attachments/assets/738507ac-8b19-46fa-97c4-b841cec424ca" />
+<img width="300" alt="Dark background" src="https://github.com/user-attachments/assets/0472dbb1-5610-4d05-ad34-fb334a2f063f" />
 
-# Usage
-1. Press "Use this template" on the menu.
-2. Fill Github form with your new repo name and press "Create repository from template"
-3. Wait for it to be created and set up action is complete. In a couple of minutes, you'll see the flutter project created in your repo once Github Actions are complete.
-4. Clone and code.
+
+
+## Features
+- Random RGB color generation (16,777,216 possible colors)
+- Adaptive text color based on background luminance
+- Animated color transition
+
+## Run
+```bash
+flutter run
+```
