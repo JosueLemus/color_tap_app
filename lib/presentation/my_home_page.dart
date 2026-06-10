@@ -24,17 +24,16 @@ class _MyHomePageState extends State<MyHomePage> {
             bgColor = ColorUtils.generateRandomColor();
           });
         },
-        child: SizedBox.expand(
-          child: ColoredBox(
-            color: bgColor,
-            child: Center(
-              child: Text(
-                AppStrings.helloThere,
-                style: TextStyle(
-                  fontSize: 32,
-                  fontWeight: FontWeight.w900,
-                  color: textColor,
-                ),
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 300),
+          color: bgColor,
+          child: Center(
+            child: Text(
+              AppStrings.helloThere,
+              style: TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.w900,
+                color: textColor,
               ),
             ),
           ),
